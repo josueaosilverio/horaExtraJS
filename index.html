@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drunk Rick</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="js/script.js" type="text/javascript" language="JavaScript"></script>
+</head>
+<body>
+<header class="image-bg">
+    <div id="ajuda">
+        <div class="box">
+            <div class="content">
+                <br/>
+                <h1>Drunk Rick</h1>
+                Apanha todas as garrafas o mais rapidamente possível<br/><br/>
+                Teclas:<br/>
+                <span>W</span> - Cima<br/>
+                <span>A</span> - Esquerda<br/>
+                <span>S</span> - Baixo<br/>
+                <span>D</span> - Direita<br/><br/>
+                <label for="nome_txt">Insere o teu nome:</label><br/>
+                <input id="nome_txt" type="text"><br/><br/>
+                <input id="btn_jogar" type="button" value="Jogar"/>
+            </div>
+        </div>
+    </div>
+    <div id="fim">
+        <div class="box">
+            <div class="content">
+                <br/>
+                <h1 id="nome"></h1>
+                <p id="tempo"></p><br/><br/>
+                <div id="tabela"></div>
+                <input id="btn_recomecar" type="button" value="Recomeçar jogo"/>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+
+        <img id="escada1" src="img/escada.png" alt="escada">
+
+        <div id="plataforma1"></div>
+        <div id="plataforma2"></div>
+        <div id="tiro"></div>
+        <!--<span id="tempo_txt"></span>-->
+
+        <div id="txt_tempo"></div>
+    </div>
+</header>
+</body>
+</html>
